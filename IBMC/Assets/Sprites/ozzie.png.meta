@@ -1,0 +1,1795 @@
+fileFormatVersion: 2
+guid: 7d2c8129545fd7748964df1309edfc37
+timeCreated: 1483548788
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ozzie_0
+    21300002: ozzie_1
+    21300004: ozzie_2
+    21300006: ozzie_3
+    21300008: ozzie_4
+    21300010: ozzie_5
+    21300012: ozzie_6
+    21300014: ozzie_7
+    21300016: ozzie_8
+    21300018: ozzie_9
+    21300020: ozzie_10
+    21300022: ozzie_11
+    21300024: ozzie_12
+    21300026: ozzie_13
+    21300028: ozzie_14
+    21300030: ozzie_15
+    21300032: ozzie_16
+    21300034: ozzie_17
+    21300036: ozzie_18
+    21300038: ozzie_19
+    21300040: ozzie_20
+    21300042: ozzie_21
+    21300044: ozzie_22
+    21300046: ozzie_23
+    21300048: ozzie_24
+    21300050: ozzie_25
+    21300052: ozzie_26
+    21300054: ozzie_27
+    21300056: ozzie_28
+    21300058: ozzie_29
+    21300060: ozzie_30
+    21300062: ozzie_31
+    21300064: ozzie_32
+    21300066: ozzie_33
+    21300068: ozzie_34
+    21300070: ozzie_35
+    21300072: ozzie_36
+    21300074: ozzie_37
+    21300076: ozzie_38
+    21300078: ozzie_39
+    21300080: ozzie_40
+    21300082: ozzie_41
+    21300084: ozzie_42
+    21300086: ozzie_43
+    21300088: ozzie_44
+    21300090: ozzie_45
+    21300092: ozzie_46
+    21300094: ozzie_47
+    21300096: ozzie_48
+    21300098: ozzie_49
+    21300100: ozzie_50
+    21300102: ozzie_51
+    21300104: ozzie_52
+    21300106: ozzie_53
+    21300108: ozzie_54
+    21300110: ozzie_55
+    21300112: ozzie_56
+    21300114: ozzie_57
+    21300116: ozzie_58
+    21300118: ozzie_59
+    21300120: ozzie_60
+    21300122: ozzie_61
+    21300124: ozzie_62
+    21300126: ozzie_63
+    21300128: ozzie_64
+    21300130: ozzie_65
+    21300132: ozzie_66
+    21300134: ozzie_67
+    21300136: ozzie_68
+    21300138: ozzie_69
+    21300140: ozzie_70
+    21300142: ozzie_71
+    21300144: ozzie_72
+    21300146: ozzie_73
+    21300148: ozzie_74
+    21300150: ozzie_75
+    21300152: ozzie_76
+    21300154: ozzie_77
+    21300156: ozzie_78
+    21300158: ozzie_79
+    21300160: ozzie_80
+    21300162: ozzie_81
+    21300164: ozzie_82
+    21300166: ozzie_83
+    21300168: ozzie_84
+    21300170: ozzie_85
+    21300172: ozzie_86
+    21300174: ozzie_87
+    21300176: ozzie_88
+    21300178: ozzie_89
+    21300180: ozzie_90
+    21300182: ozzie_91
+    21300184: ozzie_92
+    21300186: ozzie_93
+    21300188: ozzie_94
+    21300190: ozzie_95
+    21300192: ozzie_96
+    21300194: ozzie_97
+    21300196: ozzie_98
+    21300198: ozzie_99
+    21300200: ozzie_100
+    21300202: ozzie_101
+    21300204: ozzie_102
+    21300206: ozzie_103
+    21300208: ozzie_104
+    21300210: ozzie_105
+    21300212: ozzie_106
+    21300214: ozzie_107
+    21300216: ozzie_108
+    21300218: ozzie_109
+    21300220: ozzie_110
+    21300222: ozzie_111
+    21300224: ozzie_112
+    21300226: ozzie_113
+    21300228: ozzie_114
+    21300230: ozzie_115
+    21300232: ozzie_116
+    21300234: ozzie_117
+    21300236: ozzie_118
+    21300238: ozzie_119
+    21300240: ozzie_120
+    21300242: ozzie_121
+    21300244: ozzie_122
+    21300246: ozzie_123
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ozzie_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 305
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 306
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 306
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 305
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_4
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 304
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_5
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_6
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 305
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 306
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 306
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_9
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 305
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_10
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 304
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 304
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 260
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 265
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 259
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 260
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 265
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_20
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 259
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_21
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 260
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_23
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 260
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 260
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_25
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 260
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 211
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 217
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 218
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 218
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 217
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 211
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 211
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 217
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 218
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_35
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 218
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_36
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 217
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_37
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 211
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_38
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 211
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_39
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 211
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_40
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 211
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 211
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_42
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 211
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 211
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_44
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 211
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_45
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 211
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_46
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 168
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_47
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 167
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_48
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_49
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 168
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_50
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 167
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_51
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 166
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_52
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 120
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_53
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 119
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_54
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 118
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 118
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_56
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 118
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 117
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 120
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_59
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 119
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_60
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 118
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_61
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 118
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_62
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 118
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_63
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 117
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_64
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 60
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 65
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_66
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 65
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_67
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 65
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_68
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 60
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_69
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 65
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_70
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 65
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_71
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 65
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 230
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_73
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_74
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_75
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_76
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_77
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 42
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_78
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 42
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_79
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_80
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_81
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_82
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_83
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 42
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_84
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_85
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_86
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 42
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_87
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 42
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_88
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_89
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_90
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_91
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 42
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_92
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_93
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_94
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_95
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 42
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_96
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 42
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_97
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_98
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_99
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 42
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_100
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 30
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_101
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 30
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_102
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_103
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_104
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 30
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_105
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 30
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_106
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 30
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_107
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 30
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_108
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_109
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 28
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_110
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_111
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 28
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_112
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 30
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_113
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_114
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_115
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_116
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 30
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_117
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_118
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_119
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_120
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_121
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_122
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 30
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ozzie_123
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
