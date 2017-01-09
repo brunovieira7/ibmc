@@ -22,4 +22,17 @@ public class Bullet : MonoBehaviour {
 	public void fireBullet(Vector2 end) {
 		this.end = end;
 	}
+
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+		GameObject hit = collision.gameObject;
+		if (hit.tag == "Enemy") {
+			Debug.Log (hit);
+			Enemy enemy = hit.GetComponent<Enemy> ();
+			enemy.takeDamage(1);
+		}
+
+		//Debug.Log("collided" );
+		Destroy(gameObject);
+	}
 }

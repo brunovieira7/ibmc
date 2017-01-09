@@ -34,7 +34,7 @@ public class Player : MonoBehaviour {
 
 		if (Input.GetKeyDown ("1")) {
 			isAiming = true;
-			Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
+			//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
 		}
 
 		if (isMoving) { 
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour {
 
 	void fire() {
 		isAiming = false;
-		Cursor.SetCursor (null, Vector2.zero, CursorMode.Auto);
+		//Cursor.SetCursor (null, Vector2.zero, CursorMode.Auto);
 		Vector3 start = new Vector3 (rb2D.position.x, rb2D.position.y, 0f);
 		GameObject instance = Instantiate (bullet, start, Quaternion.identity) as GameObject;
 
