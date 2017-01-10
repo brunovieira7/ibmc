@@ -18,6 +18,8 @@ public class Player : MonoBehaviour {
 	private bool isFeared = false;
 
 	public GameObject fearIcon;
+	private GameObject fearIconInstance;
+	private float fearTimer;
 
 	// Use this for initialization
 	void Start () {
@@ -27,25 +29,50 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown (0)) {
-			if (isAiming) {
-				fire ();
-			} else {
-				move ();
+		if (!isIncapacitated ()) {
+			if (Input.GetMouseButtonDown (0)) {
+				if (isAiming) {
+					fire ();
+				} else {
+					move ();
+				}
+			}
+
+			if (Input.GetKeyDown ("1")) {
+				isAiming = true;
+				//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
 			}
 		}
 
-		if (Input.GetKeyDown ("1")) {
-			isAiming = true;
-			//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
+		if (isFeared) {
+			fearTimer += Time.deltaTime;
+
+			if (fearTimer < 1f) {
+				isMoving = true;
+
+			} else {
+				isFeared = false;
+				isMoving = false;
+				fearTimer = 0f;
+				Destroy (fearIconInstance);
+			}
 		}
 
 		if (isMoving) { 
 			rb2D.position = Vector3.MoveTowards (rb2D.position, walkDestination, playerSpeed * Time.deltaTime);
 			if (rb2D.position == walkDestination) {
-				isMoving = false;
+				if (!isFeared) {
+					isMoving = false;
+				} else {
+					walkDestination = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
+				}
+					
 			}
 		}
+	}
+
+	bool isIncapacitated() {
+		return isFeared;
 	}
 
 	void fire() {
@@ -74,10 +101,13 @@ public class Player : MonoBehaviour {
 	public void takeSpell() {
 		if (!isFeared) {
 			isFeared = true;
+			fearTimer = 0f;
 
 			Vector3 start = new Vector3 (rb2D.position.x, rb2D.position.y + 0.8f, 0f);
-			GameObject instance = Instantiate (fearIcon, start, Quaternion.identity) as GameObject;
-			instance.transform.parent = gameObject.transform;
+			fearIconInstance = Instantiate (fearIcon, start, Quaternion.identity) as GameObject;
+			fearIconInstance.transform.parent = gameObject.transform;
+
+			walkDestination = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
 		}
 	}
 }
