@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour {
 	private Vector2 end;
 	public float speed;
 
+	public int bulletDmg;
+
 	// Use this for initialization
 	void Start () {
 		rb2D = GetComponent <Rigidbody2D> ();
@@ -29,7 +31,7 @@ public class Bullet : MonoBehaviour {
 		if (hit.tag == "Enemy") {
 			Debug.Log (hit);
 			Enemy enemy = hit.GetComponent<Enemy> ();
-			enemy.takeDamage(1);
+			enemy.takeDamage(bulletDmg);
 		}
 
 		//Debug.Log("collided" );

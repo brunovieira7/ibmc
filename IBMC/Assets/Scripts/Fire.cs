@@ -6,6 +6,8 @@ public class Fire : MonoBehaviour {
 	public float timeToDie;
 	private float elapsedTime;
 
+	public int fireDmg;
+
 	// Use this for initialization
 	void Start () {
 		elapsedTime = 0f;
@@ -20,19 +22,12 @@ public class Fire : MonoBehaviour {
 		}
 	}
 
-	void OnCollisionEnter2D(Collision2D collision)
-	{
-		GameObject hit = collision.gameObject;
-		if (hit.tag == "Player") {
-			Debug.Log ("PLAYERDMG");
-		}
-	}
-
 	void OnTriggerEnter2D(Collider2D collision)
 	{
 		GameObject hit = collision.gameObject;
 		if (hit.tag == "Player") {
-			Debug.Log ("COLLIDED");
+			Player player = hit.GetComponent<Player> ();
+			player.takeDamage(fireDmg);
 		}
 	}
 }

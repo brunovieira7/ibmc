@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {
 
 	enum statusEnum { IDLE, WALKING, AIMING }
 
 	private Rigidbody2D rb2D;
-	private float playerSpeed;
+	public float playerSpeed;
 
 	private Vector2 walkDestination;
 
@@ -21,14 +22,25 @@ public class Player : MonoBehaviour {
 	private GameObject fearIconInstance;
 	private float fearTimer;
 
+	public Image healthBar;
+
+	public int maxHealth;
+	private int currentHealth;
+
+	private bool isDead = false;
+
 	// Use this for initialization
 	void Start () {
 		rb2D = GetComponent <Rigidbody2D> ();
-		playerSpeed = 5f;
+		currentHealth = maxHealth;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (isDead) {
+			return;
+		}
+
 		if (!isIncapacitated ()) {
 			if (Input.GetMouseButtonDown (0)) {
 				if (isAiming) {
@@ -109,5 +121,30 @@ public class Player : MonoBehaviour {
 
 			walkDestination = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
 		}
+	}
+
+	public void takeDamage(int dmg) {
+		if (isDead) {
+			return;
+		}
+
+		currentHealth -= dmg;
+
+		if (currentHealth <= 0) {
+			isDead = true;
+		}
+
+		RectTransform rect = healthBar.GetComponent<RectTransform> ();
+
+		float newScale = (float) currentHealth / maxHealth;
+
+		Vector3 currScale = rect.localScale;
+		currScale.x = newScale;
+
+		rect.localScale = currScale;
+	}
+
+	public bool isPlayerDead() {
+		return isDead;
 	}
 }
