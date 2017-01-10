@@ -6,15 +6,25 @@ using UnityEngine.UI;
 public class Enemy : MonoBehaviour {
 
 	public Image healthBar;
+	public GameObject fire;
+	public GameObject player;
+
+	private float runningTimer;
 
 	// Use this for initialization
 	void Start () {
-	
+		runningTimer = 0f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		runningTimer += Time.deltaTime;
 
+		if (runningTimer > 2) {
+			//castFires ();
+			castFear ();
+			runningTimer = 0f;
+		}
 	}
 
 	public void takeDamage(int dmg) {
@@ -23,5 +33,17 @@ public class Enemy : MonoBehaviour {
 		currScale.x -= 0.1f;
 
 		rect.localScale = currScale;
+	}
+
+	private void castFires() {
+		Vector3 position = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
+		GameObject instance = Instantiate (fire, position, Quaternion.identity) as GameObject;
+	}
+
+	void castFear() {
+		var script = player.GetComponent<Player>();
+		if (script != null) {
+			script.takeSpell ();
+		}
 	}
 }

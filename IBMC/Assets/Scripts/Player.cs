@@ -15,6 +15,9 @@ public class Player : MonoBehaviour {
 
 	private bool isMoving = false;
 	private bool isAiming = false;
+	private bool isFeared = false;
+
+	public GameObject fearIcon;
 
 	// Use this for initialization
 	void Start () {
@@ -66,5 +69,15 @@ public class Player : MonoBehaviour {
 	void move() {
 		isMoving = true;
 		walkDestination = Camera.main.ScreenToWorldPoint (Input.mousePosition);
+	}
+
+	public void takeSpell() {
+		if (!isFeared) {
+			isFeared = true;
+
+			Vector3 start = new Vector3 (rb2D.position.x, rb2D.position.y + 0.8f, 0f);
+			GameObject instance = Instantiate (fearIcon, start, Quaternion.identity) as GameObject;
+			instance.transform.parent = gameObject.transform;
+		}
 	}
 }
