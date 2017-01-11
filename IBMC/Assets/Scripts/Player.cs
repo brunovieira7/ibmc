@@ -29,10 +29,14 @@ public class Player : MonoBehaviour {
 
 	private bool isDead = false;
 
+	private GameObject skillSelect;
+
 	// Use this for initialization
 	void Start () {
 		rb2D = GetComponent <Rigidbody2D> ();
 		currentHealth = maxHealth;
+		skillSelect = GameObject.Find ("skillSelect");
+		skillSelect.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -44,6 +48,7 @@ public class Player : MonoBehaviour {
 		if (!isIncapacitated ()) {
 			if (Input.GetMouseButtonDown (0)) {
 				if (isAiming) {
+					skillSelect.SetActive (false);
 					fire ();
 				} else {
 					move ();
@@ -52,6 +57,15 @@ public class Player : MonoBehaviour {
 
 			if (Input.GetKeyDown ("1")) {
 				isAiming = true;
+				selectButton (-0.8f);
+				//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
+			}
+			if (Input.GetKeyDown ("2")) {
+				selectButton(0f);
+				//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
+			}
+			if (Input.GetKeyDown ("3")) {
+				selectButton(0.8f);
 				//Cursor.SetCursor (castCursor, Vector2.zero, CursorMode.Auto);
 			}
 		}
@@ -59,7 +73,7 @@ public class Player : MonoBehaviour {
 		if (isFeared) {
 			fearTimer += Time.deltaTime;
 
-			if (fearTimer < 1f) {
+			if (fearTimer < 2f) {
 				isMoving = true;
 
 			} else {
@@ -85,6 +99,14 @@ public class Player : MonoBehaviour {
 
 	bool isIncapacitated() {
 		return isFeared;
+	}
+
+	void selectButton(float loc) {
+		Vector3 currPos = skillSelect.transform.position;
+		currPos.x = loc + transform.position.x;
+
+		skillSelect.transform.position = currPos;
+		skillSelect.SetActive (true);
 	}
 
 	void fire() {

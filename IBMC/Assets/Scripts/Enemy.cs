@@ -74,9 +74,12 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void castFires() {
-		//Vector3 position = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
-		Vector3 position = player.transform.position;
-		GameObject instance = Instantiate (fire, position, Quaternion.identity) as GameObject;
+
+		for (int i = 0; i <= 20; i++) {
+			Vector3 position = new Vector3 (Random.Range (-7.5f, 7.5f), Random.Range (-7.5f, 7.5f), 0f);
+			//Vector3 position = player.transform.position;
+			GameObject instance = Instantiate (fire, position, Quaternion.identity) as GameObject;
+		}
 	}
 
 	void castFear() {
