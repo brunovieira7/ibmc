@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour {
 		currentHealth = maxHealth;
 		playerScript = player.GetComponent<Player> ();
 		fearSkill = new EnemySkill (1f, 10f, 3f);
-		fireSkill = new EnemySkill (1f, 3f, 1f);
+		fireSkill = new EnemySkill (2.9f, 3f, 1f);
 		animator = GetComponent<Animator>();
 	}
 
@@ -42,12 +42,22 @@ public class Enemy : MonoBehaviour {
 			return;
 		}
 
-		if (fearSkill.canUseSkill (Time.deltaTime)) {
+		bool skillStarted = false;
+		if (fearSkill.canUseSkill (Time.deltaTime, out skillStarted)) {
 			castFear ();
 		}
 
-		if (fireSkill.canUseSkill (Time.deltaTime)) {
+
+		if (fireSkill.canUseSkill (Time.deltaTime, out skillStarted)) {
 			castFires ();
+		}
+
+		if (skillStarted) {
+			if (animator.GetCurrentAnimatorStateInfo (0).IsName ("enemy_walk_s")) {
+				animator.SetTrigger ("stomp_s");
+			} else {
+				animator.SetTrigger ("stomp_n");
+			}
 		}
 
 		if (!fearSkill.isCastingSkill () && !fireSkill.isCastingSkill ()) {
@@ -115,10 +125,6 @@ public class Enemy : MonoBehaviour {
 		if (diffY > 0 && animator.GetCurrentAnimatorStateInfo (0).IsName("enemy_walk_n")) {
 			animator.SetTrigger ("walk_s");
 		}
-
-
-		//animator.SetTrigger ("Cast");
-
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)

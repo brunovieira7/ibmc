@@ -22,8 +22,9 @@ public class EnemySkill
 		castingTime = 0f;
 	}
 
-	public bool canUseSkill(float delta) {
+	public bool canUseSkill(float delta, out bool skillStarted) {
 		actualCD += delta;
+		skillStarted = false;
 
 		if (isCasting) {
 			castingTime += delta;
@@ -35,10 +36,12 @@ public class EnemySkill
 
 				return true;
 			}
+			return false;
 		}
 
 		if (actualCD > nextCast) {
 			isCasting = true;
+			skillStarted = true;
 		}
 
 		return false;
