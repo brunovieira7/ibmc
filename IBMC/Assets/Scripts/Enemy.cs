@@ -23,6 +23,9 @@ public class Enemy : MonoBehaviour {
 	private EnemySkill fearSkill;
 	private EnemySkill fireSkill;
 
+	private Animator animator;
+
+
 	// Use this for initialization
 	void Start () {
 		runningTimer = 0f;
@@ -30,6 +33,7 @@ public class Enemy : MonoBehaviour {
 		playerScript = player.GetComponent<Player> ();
 		fearSkill = new EnemySkill (1f, 10f, 3f);
 		fireSkill = new EnemySkill (1f, 3f, 1f);
+		animator = GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
@@ -94,6 +98,27 @@ public class Enemy : MonoBehaviour {
 		Vector3 position = player.transform.position;
 		position.y -= player.transform.localScale.y;
 		transform.position = Vector3.MoveTowards (transform.position, position, enemySpeed * Time.deltaTime);
+
+		float diffX = transform.position.x - position.x;
+		if ( (transform.localScale.x > 0 && diffX > 0) || (transform.localScale.x < 0 && diffX < 0) ) {
+			//Debug.Log(transform.localScale.x + " " + diff)
+			Vector3 curr = transform.localScale;
+			curr.x *= -1;
+			transform.localScale = curr;
+		}
+
+		float diffY = transform.position.y - position.y;
+		Debug.Log (animator.GetCurrentAnimatorStateInfo (0).IsName("enemy_walk_s"));
+		if (diffY < 0 && animator.GetCurrentAnimatorStateInfo (0).IsName("enemy_walk_s")) {
+			animator.SetTrigger ("walk_n");
+		}
+		if (diffY > 0 && animator.GetCurrentAnimatorStateInfo (0).IsName("enemy_walk_n")) {
+			animator.SetTrigger ("walk_s");
+		}
+
+
+		//animator.SetTrigger ("Cast");
+
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)
