@@ -20,11 +20,16 @@ public class Enemy : MonoBehaviour {
 
 	public int meleeDmg;
 
+	private EnemySkill fearSkill;
+	private EnemySkill fireSkill;
+
 	// Use this for initialization
 	void Start () {
 		runningTimer = 0f;
 		currentHealth = maxHealth;
 		playerScript = player.GetComponent<Player> ();
+		fearSkill = new EnemySkill (1f, 10f, 3f);
+		fireSkill = new EnemySkill (1f, 3f, 1f);
 	}
 
 	// Update is called once per frame
@@ -32,17 +37,21 @@ public class Enemy : MonoBehaviour {
 		if (isDead || playerScript.isPlayerDead()) {
 			return;
 		}
-		
-		followPlayer ();
-		runningTimer += Time.deltaTime;
 
-		if (runningTimer > 3f) {
-			castFires ();
-			//castFear ();
-			runningTimer = 0f;
+		if (fearSkill.canUseSkill (Time.deltaTime)) {
+			castFear ();
 		}
-	}
 
+		if (fireSkill.canUseSkill (Time.deltaTime)) {
+			castFires ();
+		}
+
+		if (!fearSkill.isCastingSkill () && !fireSkill.isCastingSkill ()) {
+			followPlayer ();
+		}
+		runningTimer += Time.deltaTime;
+	}
+		
 	public void takeDamage(int dmg) {
 		if (isDead) {
 			return;
@@ -65,7 +74,8 @@ public class Enemy : MonoBehaviour {
 	}
 
 	void castFires() {
-		Vector3 position = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
+		//Vector3 position = new Vector3(Random.Range(-3.0f, 3.0f), Random.Range(-3.0f, 3.0f), 0f);
+		Vector3 position = player.transform.position;
 		GameObject instance = Instantiate (fire, position, Quaternion.identity) as GameObject;
 	}
 
