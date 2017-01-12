@@ -75,6 +75,7 @@ public class Enemy : MonoBehaviour {
 
 		if (currentHealth <= 0) {
 			isDead = true;
+			animator.SetTrigger ("death");
 		}
 				
 		RectTransform rect = healthBar.GetComponent<RectTransform> ();
