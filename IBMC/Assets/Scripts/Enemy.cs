@@ -53,11 +53,7 @@ public class Enemy : MonoBehaviour {
 		}
 
 		if (skillStarted) {
-			if (animator.GetCurrentAnimatorStateInfo (0).IsName ("enemy_walk_s")) {
-				animator.SetTrigger ("stomp_s");
-			} else {
-				animator.SetTrigger ("stomp_n");
-			}
+			animator.SetTrigger ("stomp");
 		}
 
 		if (!fearSkill.isCastingSkill () && !fireSkill.isCastingSkill ()) {
